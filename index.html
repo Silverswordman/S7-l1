@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Object esercizi</title>
+  </head>
+  <body>
+    <main>
+      <form
+        style="
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          padding: 2em;
+        "
+      >
+        <input placeholder="Name" id="petName-field" />
+        <input placeholder="Owner" id="ownerName-field" />
+        <input placeholder="Species" id="species-field" />
+        <input placeholder="Breed" id="breed-field" />
+
+        <button type="submit">Add Pet</button>
+      </form>
+      <div>
+        <h2>Pets</h2>
+        <ul id="pets-list"></ul>
+      </div>
+    </main>
+    <script src="user.js"></script>
+    <script src="pet.js"></script>
+  </body>
+</html>
